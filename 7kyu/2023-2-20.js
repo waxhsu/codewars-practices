@@ -105,3 +105,9 @@ function friend(friends){
     } 
   return realFriends // PUT RETURN OUTSIDE OF THE FUNCTION
 }
+
+// shorter answer
+function friend(friends){
+  return friends.filter(n => n.length === 4)
+}
+
