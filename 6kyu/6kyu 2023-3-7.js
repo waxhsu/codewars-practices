@@ -20,8 +20,6 @@ function towerBuilder(nFloors) {
   return tower
 }
 
-
-
 // SOLUTION
 
 function towerBuilder(floors){
