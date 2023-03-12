@@ -12,7 +12,6 @@ function expandedForm(num) {
 // MY ANSWER
 function isValidWalk(walk) {
   let sum = 0
-  console.log(walk)
   if (walk.length !== 10){
     return false 
   } else {
