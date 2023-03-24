@@ -64,6 +64,7 @@ function high(x){
       }
     });
     
+
     return wordList[highestIndex];
     
     
