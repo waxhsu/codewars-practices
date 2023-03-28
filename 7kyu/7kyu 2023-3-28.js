@@ -19,3 +19,29 @@ function squareDigits(num){
 //////////////////////////////////////////////////////////////////////////////
 
 
+
+
+// https://www.codewars.com/kata/523b623152af8a30c6000027/train/javascript
+
+function square(n){
+  return n**2
+}
+
+
+//https://www.codewars.com/kata/55a5bfaa756cfede78000026/train/javascript
+
+function problem(x){
+  if (typeof x === 'string'){
+    return "Error"}
+  else 
+    return x*50+6
+}
+
+
+// https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript
+
+function findShort(s){
+  let map1 = s.split(" ").map(x => x.length);
+  map1.sort((a,b) => a-b)
+  return map1[0]
+}
