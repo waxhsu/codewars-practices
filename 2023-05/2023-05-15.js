@@ -3,11 +3,17 @@
 // MY ANSWER
 multiplicationTable = function(size) {
     const table = [[size]]
-    
+
+    for (var i = 0; i < size; i++) {
+      table.push[i] 
+    }
+
     return tableNew
   }
 
-//SOLUTION
+
+
+// SOLUTION
 multiplicationTable = function(size) {
     var result = [];
   
